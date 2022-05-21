@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+}
+
+div {
+    text-align: center;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+  }
+
+.show-date {
+    padding-top: 2.5rem;
+}
+
+.hero-image {
+    margin: 2rem 0rem 4rem 0rem;
+}
+
+.explanation {
+    padding: 0 10rem 0 10rem;
+}
+
+
+/* iPhone Portrait Screen: */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .explanation {
+        padding: 0 3rem 0 3rem;
+    }
+}
